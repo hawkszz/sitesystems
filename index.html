@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SiteSys Web & Systems</title>
+    <link rel="icon" href="img/favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <header id="mainHeader">
+        <div class="logo">
+            <img src="img/9 sin título_20240817005929.png" alt="Logo de la Empresa">
+        </div>
+        <label class="label_menu" for="menu_hamb">
+            <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="list_icon" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+            </svg>
+        </label>
+        <input class="menu_hamb" type="checkbox" id="menu_hamb">
+        <nav class="navbar">
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#nosotros">Nosotros</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="inicio">
+        <div class="slider">
+            <div class="slides">
+                <div class="slide">
+                    <img src="img/pexels-fotios-photos-2363482.jpg" alt="Imagen 1">
+                    <div class="overlay">
+                        <h1 class="slider-title">Título 1</h1>
+                        <p class="slider-description">Descripción para la imagen 1.</p>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src="img/pexels-goumbik-574069.jpg" alt="Imagen 2">
+                    <div class="overlay">
+                        <h1 class="slider-title">Título 2</h1>
+                        <p class="slider-description">Descripción para la imagen 2.</p>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src="img/pexels-monoar-rahman-22660-109371.jpg" alt="Imagen 3">
+                    <div class="overlay">
+                        <h1 class="slider-title">Título 3</h1>
+                        <p class="slider-description">Descripción para la imagen 3.</p>
+                    </div>
+                </div>
+            </div>
+            <a class="prev" onclick="plusSlides(-1)"><i class="fas fa-chevron-left"></i></a>
+            <a class="next" onclick="plusSlides(1)"><i class="fas fa-chevron-right"></i></a>
+        </div>    
+    </section>
+  <!-- Sección Servicios -->
+    <section id="servicios">
+        <h2>Nuestros Servicios</h2>
+        <div class="slider">
+            <div class="slides">
+                <div class="slide">
+                    <img src="img/pexels-luis-gomes-166706-546819.jpg" alt="Desarrollo de Sitios Webs">
+                    <div class="overlay">
+                        <h1 class="slider-title">Desarrollo de Sitios Webs</h1>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src="img/pexels-mikhail-nilov-6963944.jpg" alt="Creación de sistemas informáticos">
+                    <div class="overlay">
+                        <h1 class="slider-title">Creación de Sistemas Informáticos</h1>
+                    </div>
+                </div>
+            </div>
+            <a class="prev" onclick="plusSlides(-1)"><i class="fas fa-chevron-left"></i></a>
+            <a class="next" onclick="plusSlides(1)"><i class="fas fa-chevron-right"></i></a>
+        </div>
+    </section>
+
+    <section id="nosotros"> 
+        <div class="section-content">
+            <h2>Nosotros</h2>
+            <div class="about-us">
+                <p>En SiteSys Web & Systems, nos especializamos en desarrollar soluciones digitales a medida, diseñando sistemas eficientes y páginas web personalizadas que potencian tu presencia en línea. Nuestro equipo combina creatividad y tecnología para entregar productos que no solo cumplen, sino que superan las expectativas de nuestros clientes. Ya sea que necesites una página web atractiva o un sistema robusto para tu empresa, estamos aquí para hacerlo realidad.</p>
+            </div>
+        </div>    
+    </section>
+
+    <section id="contacto">
+        <div class="content">
+            <div class="contact-wrapper animated bounceInUp">
+                <div class="contact-form">
+                    
+                    <form action="">
+                        <p>
+                            <label>Nombre y Apellido</label>
+                            <input type="text" name="fullname">
+                        </p>
+                        <p>
+                            <label>Nro. de Teléfono</label>
+                            <input type="tel" name="email">
+                        </p>
+                        <p>
+                            <label>Correo Electrónico</label>
+                            <input type="email" name="phone">
+                        </p>
+                        <p class="block">
+                           <label>Mensaje</label> 
+                            <textarea name="mensaje" rows="3"></textarea>
+                        </p>
+                        <p class="block">
+                            <button>
+                                Enviar
+                            </button>
+                        </p>
+                    </form>
+                </div>
+                <div class="contact-info">
+                    <h4>Síguenos</h4>
+                    <ul>
+                        <li><i class="fab fa-instagram"></i> <a href="https://www.instagram.com/Sitesystems">@Sitesystems</a></li>
+                    </ul>
+                    <h4>Hablemos</h4>
+                    <ul>
+                        <li><i class="fas fa-phone-alt"></i> <a href="https://wa.me/595987314895" id="phoneLink">+595 987 314895</a></li>
+                        <p id="status" style="display: none; color: #333;">Número copiado al portapapeles</p>
+                        <li><i class="fas fa-envelope-open-text"></i> <a href="mailto:sitesysweb@gmail.com">sitesysweb@gmail.com</a></li>
+                        <li><i class="fab fa-whatsapp"></i> <a href="https://wa.me/595987314895">+595 987 314895</a></li>                    
+                    </ul>
+                    
+                </div>
+            </div>
+    
+        </div>
+    </section>
+    <script src="slider.js"></script>
+</body>
+</html>

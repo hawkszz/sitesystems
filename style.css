@@ -5,6 +5,7 @@ body {
     margin: 0;
     padding: 0;
     
+    
 }
 
 /* Estilo inicial del encabezado */
@@ -52,10 +53,12 @@ html {
 .logo {
     position: absolute;
     left: 20px;
+    margin-top: 15px;
+    margin-left: 40px;
 }
 
 .logo img {
-    width: 75px;
+    width: 30vh;
     height: auto;
 }
 
@@ -300,7 +303,8 @@ nav ul {
     }
 
     .logo img {
-        width: 60px;
+        width: 150px;
+        margin-left: -50px;
     }
 
     /* Ajustes de transformaciones para asegurar buena visibilidad */
@@ -941,6 +945,7 @@ font-size: 35px;
   
   .label_menu {
     cursor: pointer;
+    margin-left: 40px;
   }
   
   .menu_hamb {
@@ -951,10 +956,12 @@ font-size: 35px;
       position: absolute;
       right: 20px;
       top: 20px;
+      margin-right: 20px;
     }
   }
   .menu_hamb:checked ~ .navbar ul {
     display: block;
+    
   }
   @media (max-width: 768px) {
     .navbar ul {
@@ -1251,6 +1258,6 @@ font-size: 35px;
     font-size: 18px;
   }
   .text{
-    font-size: 18px;
+    font-size: 15px;
   }
 }
